@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Poke;
+    src: url(../font/Pokemon_Solid.ttf);
+}
+
+h1 {
+    font-family: Poke;
+    color: red;
+    text-shadow: black 3px 3px 2px;
+}
+
+
+#galerie {
+    border: #fbd403 solid 3px; 
+    height: 70vh;
+    overflow: auto;
+}
+
+#main {
+    border: #fbd403 solid 1px;
+    padding: 1em;
+    background-color: #ed1e24;
+    color: white;
+}
+
+#cardCom {
+    font-size: 2em;
+}
+
+img {
+    border: 3px #fbd403 solid!important;
+    background: lightgrey!important;
+}
+
+#pok img {
+    width: auto;
+    border: 3px double black!important ;
+    box-shadow: black 3px 2px;
+}
+
+@media screen and (max-width: 768px) {
+    #galerie {
+        height: 100%;
+    }
+    #galerie img {
+        width: 90%;
+    }
+}
